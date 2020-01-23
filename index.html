@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
 
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #660066;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <!--<a class="navbar-brand" href="#"> <img src="assets/img/logo.png" alt="Logo de Ricomida"> </a>-->
-            <h2 class="text-white"><span>Gonzalo</span></h2>
+            <h2 class="text-white font-weight-bold"><span>Gonzalo</span></h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,26 +27,28 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Inicio</a>
+                        <a class="nav-link text-white" href="#about">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#work">Recetas</a>
+                        <a class="nav-link text-white" href="#work">Sobre Mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Nosotros</a>
+                        <a class="nav-link text-white" href="#contact">Mi experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
+                        <a class="nav-link text-white" href="#contact">Mis Trabajos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section>
-        <img src="img/foto1.jpg" alt="" height="700" width="100%">
+    <section class="hero-section" >
     </section>
 
-    <section>
+    <section class="container">
         <h3 class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo esse, quis officia
             assumenda non laborum culpa dignissimos. Rem tempora similique excepturi distinctio magni vel officia
             maiores atque. Aliquam, eveniet earum.</h3>
@@ -55,18 +61,136 @@
                     deleniti ea vitae sequi quos repudiandae veritatis laudantium minus odit repellendus amet doloribus
                     consectetur iste ipsa? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aut
                     voluptates odio reiciendis ducimus inventore velit earum corporis tempore repellat, explicabo
-                    repellendus tenetur voluptate? Modi cupiditate quam praesentium voluptatibus explicabo!</p>
+                    repellendus tenetur voluptate? Modi cupiditate quam praesentium voluptatibus explicabo! Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Et, odit explicabo, laboriosam libero perferendis
+                    adipisci porro reprehenderit aperiam culpa voluptas maxime id iusto animi, eligendi debitis! Animi
+                    explicabo odit dolorem!</p>
             </div>
             <div class="col-sm-6">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, maiores esse! Possimus
                     necessitatibus earum ducimus eum cupiditate reiciendis impedit cumque nemo exercitationem non sequi
                     animi, est rerum. Nesciunt, dignissimos pariatur. Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Quasi velit labore molestias sunt deleniti delectus quas commodi corrupti voluptates, modi
-                    asperiores obcaecati similique porro, repellendus, recusandae laboriosam mollitia id at.</p>
+                    asperiores obcaecati similique porro, repellendus, recusandae laboriosam mollitia id at. Lorem ipsum
+                    dolor sit, amet consectetur adipisicing elit. Quis provident rem reiciendis ab animi quod dolore
+                    tempore alias, dolores quaerat facilis voluptatum aperiam dicta ducimus nisi cum corrupti officiis
+                    esse.</p>
             </div>
         </div>
     </div>
 
+    <section class="container text-center" style=" padding: 100px;">
+        <h1 class="font-weight-bold">Mi experiencia</h1>
+        <div class="row">
+
+            <div class="col-sm-4">
+                <i class="fas fa-jedi fa-6x"></i>
+                <h5>Jedi</h5>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-hat-wizard fa-6x"></i>
+                <h5>Mago</h5>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-space-shuttle fa-6x"></i>
+                <h5>Capitan Espacial</h5>
+            </div>
+        </div>
+
+    </section>
+
+    <section style="background:#244397;">
+        <h1 class="text-center font-weight-bold text-white" style="padding: 50px;">Mis trabajos</h1>
+        <!--tarjetas-->
+        <div class="container">
+            <div class="card-deck tarjetas">
+                <div class="card">
+                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal height
+                            action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck tarjetas">
+                <div class="card">
+                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal height
+                            action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section>
+        <h1>Google FORMs</h1>
+    </section>
+    <footer class="bg-dark text-center text-light p-3">
+        <div class="row">
+            <h1>Gonzalo</h1>
+            <i class="fab fa-android"></i>
+            <i class="fab fa-android"></i>
+            <i class="fab fa-android"></i>
+            <i class="fab fa-android"></i>
+        </div>
+    </footer>
 </body>
 
 </html>

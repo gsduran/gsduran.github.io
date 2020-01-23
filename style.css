@@ -1,0 +1,25 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tarjetas{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+    padding-top: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-section {
+    background-position: center;
+    background-image: url('img/foto2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding-top: 100px;
+    height: 700px;
+    width: 100%;
+  }
