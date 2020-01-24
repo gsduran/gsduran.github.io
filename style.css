@@ -3,12 +3,10 @@ body{
 }
 
 .tarjetas{
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 h1{
-    padding-top: 50px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -27,3 +25,23 @@ h1{
   i{
       padding: 30px;
   }
+
+  
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 100%;
+    width:20px;
+    height: 1px;
+}
+
+.blog .carousel-indicators .active {
+background: #000;
+}
+
