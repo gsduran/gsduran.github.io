@@ -1,0 +1,25 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.colorverde{
+    background: #28A745;
+}
+
+.tarjetas {
+
+    font-family: 'Roboto', 20pt, Light;
+}
+
+.griss{
+  color: #707070;
+}
+
+.izquierda{
+  text-align: right;
+}
+
+.letraverde{
+
+  color: #28A745;
+}

@@ -32,13 +32,13 @@
                         <a class="nav-link text-white" href="#about">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#work">Sobre Mi</a>
+                        <a class="nav-link text-white" href="#sobreMi">Sobre Mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#contact">Mi experiencia</a>
+                        <a class="nav-link text-white" href="#exp">Mi experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#contact">Mis Trabajos</a>
+                        <a class="nav-link text-white" href="#trab">Mis Trabajos</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link text-white" href="#contact">Contacto</a>
@@ -50,7 +50,7 @@
     <section class="hero-section">
     </section>
 
-    <div class="d-sm-none d-md-block d-none d-sm-block">
+    <div id="sobreMi" class="d-sm-none d-md-block d-none d-sm-block">
         <section class="container">
             <h3 class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo esse, quis officia
                 assumenda non laborum culpa dignissimos. Rem tempora similique excepturi distinctio magni vel officia
@@ -92,178 +92,168 @@
 
     </div>
 
-    <section class="container text-center" style="padding-bottom: 50px;">
-        <h1 class="font-weight-bold" style=" padding: 50px;">Mi experiencia</h1>
+    <section id="exp" class="container text-center" style="padding-bottom: 50px;">
+        <h1 class="font-weight-bold display-5" style=" padding: 50px;">Mi experiencia</h1>
         <div class="row">
 
             <div class="col-sm-4">
-                <i class="fas fa-jedi fa-6x"></i>
+                <a href="" data-toggle="modal" data-target="#exampleModal" class="text-dark"><i
+                        class="fas fa-jedi fa-6x"></i></a>
                 <h5>Jedi</h5>
             </div>
             <div class="col-sm-4">
-                <i class="fas fa-hat-wizard fa-6x"></i>
+                <a href="" data-toggle="modal" data-target="#exampleModal" class="text-dark"><i
+                        class="fas fa-hat-wizard fa-6x"></i></a>
+
                 <h5>Mago</h5>
             </div>
             <div class="col-sm-4">
-                <i class="fas fa-space-shuttle fa-6x"></i>
+                <a href="" data-toggle="modal" data-target="#exampleModal" class="text-dark"><i
+                        class="fas fa-space-shuttle fa-6x"></i></a>
+
                 <h5>Capitan Espacial</h5>
             </div>
         </div>
-
     </section>
-    <!--Inicio del carrusel-->
- <section class="d-none d-sm-block d-sm-none d-md-block" style="background:#e3f2fd; padding: 50px;">
-    <div class="container " style="padding: 20px;">
-        <div class="row blog">
-            <div class="col-md-12">
-                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
-
-                    <ol class="carousel-indicators">
-                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#blogCarousel" data-slide-to="1"></li>
-                    </ol>
-
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        <h1 class="text-center font-weight-bold">Mis trabajos</h1>
-                        <div class="carousel-item active">
-                            <div class="row text-center">
-                                <div class="col-md-4">
-                                    <a href="#">
-                                        <img src="img/tarjeta-1.png" alt="Image" style="max-width:100%;">
-                                    </a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="#">
-                                        <img src="img/tarjeta-1 (2).png" alt="Image" style="max-width:100%;">
-                                    </a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="#">
-                                        <img src="img/tarjeta-1 (3).png" alt="Image" style="max-width:100%;">
-                                    </a>
-                                </div>
-
-                            </div>
-                            <!--.row-->
-                        </div>
-                        <!--.item-->
-
-                        <div class="carousel-item">
-                            <div class="row text-center">
-                                <div class="col-md-4">
-                                    <a href="#">
-                                        <img src="img/tarjeta-1 (4).png" alt="Image" style="max-width:100%;">
-                                    </a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="#">
-                                        <img src="img/tarjeta-1 (5).png" alt="Image" style="max-width:100%;">
-                                    </a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="#">
-                                        <img src="img/tarjeta-1 (5).png" alt="Image" style="max-width:100%;">
-                                    </a>
-                                </div>
-
-                            </div>
-                            <!--.row-->
-                        </div>
-                        <!--.item-->
-
-                    </div>
-                    <!--.carousel-inner-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Alerta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <!--.Carousel-->
-
+                <div class="modal-body">
+                    <p>Información aun en construcción</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
             </div>
         </div>
     </div>
- </section>
-    
+    <!--Inicio del carrusel-->
+    <section id="trab" class="d-none d-lg-block d-xl-none d-none d-xl-block d-none d-md-block d-lg-none"
+        style="background:#e3f2fd; padding: 50px;">
+        <div class="container " style="padding: 20px;">
+            <div class="row blog">
+                <div class="col-md-12">
+                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <h1 class="text-center font-weight-bold display-5">Mis trabajos</h1>
+                            <div class="carousel-item active">
+                                <div class="row text-center">
+                                    <div class="col-md-4">
+                                        <a href="Paginas/Meet&coffe/index.html" data-toggle="tooltip"
+                                            title="Visualiza la pagina" target="_blank">
+                                            <img src="img/tarjeta-1.png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="Paginas/Iguana Page/index.html" data-toggle="tooltip"
+                                            title="Visualiza la pagina" target="_blank">
+                                            <img src="img/tarjeta-1 (2).png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="Paginas/Suricata/index.html" data-toggle="tooltip"
+                                            title="Visualiza la pagina" target="_blank">
+                                            <img src="img/tarjeta-1 (3).png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                            <div class="carousel-item">
+                                <div class="row text-center">
+                                    <div class="col-md-4">
+                                        <a href="Paginas/Cuppon/index.html" data-toggle="tooltip"
+                                            title="Visualiza la pagina" target="_blank">
+                                            <img src="img/tarjeta-1 (4).png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="Paginas/Ricomida/index.html" data-toggle="tooltip"
+                                            title="Visualiza la pagina" target="_blank">
+                                            <img src="img/tarjeta-1 (5).png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="Paginas/Ricomida/index.html" data-toggle="tooltip"
+                                            title="Visualiza la pagina" target="_blank">
+                                            <img src="img/tarjeta-1 (5).png" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                        </div>
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--Fin del carrusel-->
     <!--menu chico-->
-    <section class="d-block d-sm-none" style="background:#e3f2fd;">
+    <section class="d-block d-sm-none d-none d-sm-block d-md-none" style="background:#e3f2fd;">
         <h1 class="text-center font-weight-bold" style="padding: 50px;">Mis trabajos</h1>
         <!--tarjetas-->
         <div class="container">
-            <div class="card-deck tarjetas">
-                <div class="card">
-                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+            <div class="row text-center">
+                <div class="col-md-4 tarjetas">
+                    <a href="Paginas/Meet&coffe/index.html" data-toggle="tooltip" title="Visualiza la pagina"
+                        target="_blank">
+                        <img src="img/tarjeta-1.png" alt="Image" style="max-width:100%;">
+                    </a>
                 </div>
-                <div class="card">
-                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+                <div class="col-md-4 tarjetas">
+                    <a href="Paginas/Iguana Page/index.html" data-toggle="tooltip" title="Visualiza la pagina"
+                        target="_blank">
+                        <img src="img/tarjeta-1 (2).png" alt="Image" style="max-width:100%;">
+                    </a>
                 </div>
-                <div class="card">
-                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height
-                            action.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+                <div class="col-md-4 tarjetas">
+                    <a href="Paginas/Suricata/index.html" data-toggle="tooltip" title="Visualiza la pagina"
+                        target="_blank">
+                        <img src="img/tarjeta-1 (3).png" alt="Image" style="max-width:100%;">
+                    </a>
                 </div>
+                <div class="col-md-4 tarjetas">
+                    <a href="Paginas/Cuppon/index.html" data-toggle="tooltip" title="Visualiza la pagina"
+                        target="_blank">
+                        <img src="img/tarjeta-1 (4).png" alt="Image" style="max-width:100%;">
+                    </a>
+                </div>
+                <div class="col-md-4 tarjetas">
+                    <a href="Paginas/Ricomida/index.html" data-toggle="tooltip" title="Visualiza la pagina"
+                        target="_blank">
+                        <img src="img/tarjeta-1 (5).png" alt="Image" style="max-width:100%;">
+                    </a>
+                </div>
+
+
             </div>
-            <div class="card-deck tarjetas">
-                <div class="card">
-                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="img/Screenshot_1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height
-                            action.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
 

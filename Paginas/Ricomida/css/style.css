@@ -1,0 +1,43 @@
+header {
+    padding: 80px;
+}
+
+header img{
+    height: 50px;
+}
+
+.ingreee{
+    list-style:none
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 100%;
+    width:20px;
+    height: 1px;
+}
+
+.blog .carousel-indicators .active {
+background: #000;
+}
+
+.newsletter{
+    background: ;
+}
+
+span{
+
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+  

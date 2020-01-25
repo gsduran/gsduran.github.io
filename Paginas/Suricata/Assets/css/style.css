@@ -1,0 +1,30 @@
+.blanco {
+  color: #ffffff;
+}
+header{
+  padding: 100px;
+  color: #707070;
+  font-weight: 500;
+}
+body{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+footer{
+  color: #ffffff;
+}
+
+.fondorosado{
+
+  background-color: #e83e8c
+}
+
+.icons-section{
+
+  background-color: #17a2b8;
+}
+
+.espacio{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

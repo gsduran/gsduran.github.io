@@ -1,0 +1,73 @@
+body{
+  background-color: black;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+header{
+  font-size:medium
+}
+.hero-section {
+  background-position: center;
+  background-image: url(/../assets/img/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding-top: 100px;
+  height: 700px;
+  width: 100%;
+}
+.sweet-brown {
+  text-align: left;
+  padding: 3.125rem;
+  white-space: nowrap;
+}
+.centrado {
+  width: 60%;
+  margin: 0 auto;
+  text-align: justify;
+}
+.charla-speaker, .charla-texto, .evento {
+  display: inline-block;
+}
+.charla-texto {
+  width: 70.5%;
+  vertical-align: middle;
+  margin-right: 10%;
+  white-space: normal;
+}
+
+.charla-speaker{
+  width: 40%;
+  vertical-align: middle;
+}
+
+.caract{
+  background: #1E1A13 0% 0% no-repeat padding-box;
+  opacity: 0.98;
+    padding: 6.25rem 3.125rem;
+  }
+
+  #eventos h2 {
+    margin-bottom: 1em;
+  }
+  #eventos h3 {
+    margin: 1em auto;
+  }
+
+  .evento {
+    width: 30%;
+  }
+  .evento img {
+    width: 75%;
+  }
+
+footer{
+  background: #1E1A13;
+}
+
+#fotos{
+      padding: 6.25rem 3.125rem;
+}
