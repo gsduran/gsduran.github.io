@@ -45,3 +45,9 @@ h1{
 background: #000;
 }
 
+@media screen and (max-width: 600px) {
+    .texto1 {
+        font-size: 40px;
+    }
+}
+
